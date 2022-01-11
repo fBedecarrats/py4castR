@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: py4castR
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: py4castR
+  template:
+    metadata:
+      labels:
+        app: py4castR
+    spec:
+      containers:
+        - name: py4castR
+          image: git-registry.lab.sspcloud.fr/fbedecarrats/py4casR:latest
