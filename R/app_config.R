@@ -9,7 +9,7 @@
 #' 
 #' @noRd
 app_sys <- function(...){
-  system.file(..., package = "py4castR")
+  system.file(..., package = "py4castr")
 }
 
 

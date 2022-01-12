@@ -10,7 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic 
     fluidPage(
-      h1("py4castR")
+      h1("py4castr")
     )
   )
 }
@@ -33,7 +33,7 @@ golem_add_external_resources <- function(){
     favicon(),
     bundle_resources(
       path = app_sys('app/www'),
-      app_title = 'py4castR'
+      app_title = 'py4castr'
     )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert() 

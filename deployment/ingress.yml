@@ -1,21 +1,21 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: py4castR
+  name: py4castr
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
   tls:
     - hosts:
-      - py4castR.lab.sspcloud.fr
+      - py4castr.lab.sspcloud.fr
   rules:
-    - host: py4castR.lab.sspcloud.fr
+    - host: py4castr.lab.sspcloud.fr
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: py4castR
+                name: py4castr
                 port:
                   number: 80
