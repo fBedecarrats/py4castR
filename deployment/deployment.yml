@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: py4castR
-          image: git-registry.lab.sspcloud.fr/fbedecarrats/py4casR:latest
+          image: avouacr/py4castr:latest
