@@ -5,12 +5,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/avouacr/py4castr.git
+    repoURL: https://github.com/fbedecarrats/py4castr.git
     targetRevision: HEAD
     path: deployment
   destination:
     server: https://kubernetes.default.svc
-    namespace: user-avouacr
+    namespace: user-fbedecarrats
   syncPolicy:
     automated:
       selfHeal: true
