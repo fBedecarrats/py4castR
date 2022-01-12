@@ -44,7 +44,7 @@ usethis::use_test( "app" )
 # Documentation
 
 ## Vignette ----
-usethis::use_vignette("py4castR")
+usethis::use_vignette("py4castr")
 devtools::build_vignettes()
 
 ## Code Coverage----
